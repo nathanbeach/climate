@@ -40,6 +40,19 @@ and also iPads specifically.
       position: relative;
       border-bottom: 0;
     }
+
+    .disc-entry--art:hover {
+      height: auto;
+      img {
+        border: 1px solid #666;
+        border-radius: 3px;
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+      }
+    }
+
     //
     // td:before {
     //   /* Now like a table header */

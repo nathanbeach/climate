@@ -15,12 +15,13 @@ body {
   .table-cell--shrink-to-fit,
   td:nth-child(1),
   td:nth-child(2),
-  td:nth-child(3) {
+  td:nth-child(3),
+  td:nth-child(4) {
     width: 0.1%;
   }
   // select which columns should be nowrap
   .table-cell--nowrap,
-  td:nth-child(2) {
+  td:nth-child(3) {
     white-space: nowrap;
   }
   h5 {
@@ -46,6 +47,28 @@ body {
 
 .disc-entry--year {
   font-size: .8rem;
+}
+.disc-entry--art {
+  height: 4rem;
+  width: 4rem;
+  img {
+    height: 100%;
+    // transition: height 40ms;
+  }
+}
+.disc-entry--art:hover {
+  img {
+    z-index: 100;
+    height: auto;
+    border: 5px solid #444;
+    border-radius: 5px;
+    max-width: 85vw;
+    max-height: 85vh;
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translateX(-50%) translateY(-50%);
+  }
 }
 .disc-entry--title {
   font-style: italic;
