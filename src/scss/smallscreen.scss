@@ -8,6 +8,18 @@ and also iPads specifically.
 @media only screen and (max-width: 550px),
   (min-device-width: 550px) and (max-device-width: 768px) {
 
+  .header-container {
+    .header-photo {
+      max-width: 90vw;
+      border-radius: 10px;
+      float: none;
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: none;
+    }
+  }
+
   .discography {
     /* Force table to not be like tables anymore */
     table,

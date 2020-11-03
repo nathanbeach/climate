@@ -15,7 +15,7 @@
     "css:lint": "stylelint src/scss/*.scss --syntax scss || true",
     "css:scss": "node-sass --output-style compressed -o dist/css src/scss",
     "css:postcss": "npx postcss dist/css/*.css --use autoprefixer -d dist/css",
-    "deploy": "node deploy",
+    "deploy": "npm run build && node deploy",
     "serve": "browser-sync start --server \"dist\" --files \"dist\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "run-p serve watch:*",
