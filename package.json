@@ -20,6 +20,7 @@
     "css:postcss": "npx postcss dist/css/*.css --use autoprefixer -d dist/css",
     "deploy": "npm run build && node deploy",
     "serve": "browser-sync start --server \"dist\" --files \"dist\"",
+    "start": "watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npm run build && run-p serve watch:*",
     "watch:conf": "onchange \"src/conf\" -- npm run build:conf",
