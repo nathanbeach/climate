@@ -13,12 +13,19 @@ h3 {
     margin-top: 2rem;
 }
 
+.inline-photo {
+  max-width:30vw;
+  border-radius:20px;
+  margin: 2vw 0;
+}
+
 .header-container {
   .header-photo {
     max-width:20vw;
     border-radius:20px;
     float:right;
     margin-right:1vw;
+    margin-left:5vw;
   }
   .header-photo:hover {
     z-index: 100;
