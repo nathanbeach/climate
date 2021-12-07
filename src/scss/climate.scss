@@ -25,7 +25,7 @@ h3 {
     border-radius:20px;
     float:right;
     margin-right:1vw;
-    margin-left:5vw;
+    margin-left:2vw;
   }
   .header-photo:hover {
     z-index: 100;
@@ -116,6 +116,11 @@ h3 {
 }
 .disc-entry--details {
   font-size: .75rem;
+  text-align: justify;
+}
+
+.justified {
+  text-align: justify;
 }
 
 .footer {
